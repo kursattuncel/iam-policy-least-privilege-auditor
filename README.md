@@ -19,6 +19,7 @@ Hiring teams want evidence that cloud-security candidates can reason about ident
 ## Quickstart
 
 ```bash
+python -m pip install -e .
 python -m unittest discover -s tests
 python -m iam_policy_auditor examples/policy.json
 ```
